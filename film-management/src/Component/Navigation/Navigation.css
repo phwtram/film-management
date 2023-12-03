@@ -1,0 +1,38 @@
+
+.Toolbar {
+  display: flex;
+  justify-content: space-between;  /* This will space out main items */
+}
+
+/* Grouping the main items and switch/login items */
+.main-items, .switch-login-items {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  height: 60px; /* ví dụ */
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.navbar > * {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the individual buttons and icons in the Navbar */
+.Navbar-button, .Navbar-icon, .Navbar-text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Style for the Typography text */
+.Navbar-text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Add any other styles you might need */

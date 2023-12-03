@@ -1,0 +1,98 @@
+/* LoginGoogle.css */
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; /* Use full screen height */
+    width: 100vw;
+  }
+  
+  .login-box {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Adding some shadow for depth */
+    border-radius: 10px; /* Slightly rounded corners for a modern look */
+    width: 600px;
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    padding: 20px;
+    margin-bottom: 2rem;
+    color: #FC6C85;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Consistent rounded corners */
+    box-sizing: border-box; /* To include padding in the width */
+  }
+  
+  .input-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #FFCBA4; /* Green color for the submit button */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .input-group input[type="submit"]:hover {
+    background-color: #FFCBA4; /* Darken button when hovering */
+  }
+  
+  #buttonDiv {
+    margin-top: 2rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #d9534f; /* Red color for logout button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #c9302c; /* Darken button when hovering */
+  }
+  
+  /* Additional styling for user info display */
+  .user-info {
+    margin-top: 1rem;
+  }
+  
+  .user-info h5 {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .user-info img {
+    max-width: 100px; /* Limit image size */
+    border-radius: 50%; /* Circular image for the user profile */
+    margin-top: 1rem;
+  }
